@@ -15,10 +15,10 @@ public class ResolutionTest {
 
     @Test
     public void canOpenBrowserWithDecentResolution() {
-        Configuration.browserSize = "1366x768";
+        Configuration.browserSize = "1800x1200";
         open();
         Selenide.screenshot("Jenkins_resolution");
-        assertEquals(new Dimension(1366, 768), getWebDriver().manage().window().getSize());
+        assertEquals(new Dimension(1800, 1200), getWebDriver().manage().window().getSize());
     }
 
 
