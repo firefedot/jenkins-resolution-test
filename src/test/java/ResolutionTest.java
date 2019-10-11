@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 /**
- * Created by kovylina on 08.10.2019.
+ * Created by kovylina on 08.10.2019. hgjhjhj
  */
 public class ResolutionTest {
 
